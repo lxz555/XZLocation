@@ -38,5 +38,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'CoreLocation'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'FMDB'
 end
