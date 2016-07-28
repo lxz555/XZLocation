@@ -1,11 +1,12 @@
 use_frameworks!
 
-target 'XZLocation_Example' do
+
+target 'XZLocation_Example', :exclusive => true do
+  pod 'XZLocation', :path => '../'
+end
+
+target 'XZLocation_Tests', :exclusive => true do
   pod 'XZLocation', :path => '../'
 
-  target 'XZLocation_Tests' do
-    inherit! :search_paths
 
-    
-  end
 end
