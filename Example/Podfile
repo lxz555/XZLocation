@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XZLocation_Example' do
+  pod 'XZLocation', :path => '../'
+
+  target 'XZLocation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
